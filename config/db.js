@@ -2,11 +2,11 @@
 const Pool = require('pg').Pool;
 
 const db = new Pool({
-  user: 'catedratec',
-  password: 'password',
+  user: 'myuser',
+  password: 'yourpassword',
   host: 'localhost',
   port: 5432,
-  database: 'catedraapi',
+  database: 'mydatabase',
 });
 
 module.exports = { db };
